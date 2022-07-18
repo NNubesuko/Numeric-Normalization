@@ -34,3 +34,24 @@ return 10
 
 x = -2
 return 9
+
+# Description.
+This method is designed to fit the number passed in between min and max.
+
+For min = 0, max = 10, the behavior is as follows
+
+x = 0 return 0
+
+x = 1 return 1 . . . x = 10 return 10
+
+x = 11 return 0 return min if max is exceeded, or "min + value exceeded" if max is exceeded by 2 or more.
+
+x = 12 return 1
+
+x = 13 return 2
+
+The reverse operation is the same: if it is less than min, it returns to max, and if min is exceeded by more than 2, it becomes "max - value exceeded".
+
+x = -1 return 10
+
+x = -2 return 9
