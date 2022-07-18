@@ -4,7 +4,7 @@ I have created programs in various languages to normalize numbers.
 # 説明
 このメソッドは、渡された数値を min から max の間に収めるメソッドになっています。
 
-引数が、x = 0, min = 0, max = 10の場合は以下のような動作になります。
+min = 0, max = 10の場合は以下のような動作になります。
 
 x = 0
 return 0
