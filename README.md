@@ -55,3 +55,5 @@ The reverse operation is the same: if it is less than min, it returns to max, an
 x = -1 return 10
 
 x = -2 return 9
+
+Translated by Deepl.
